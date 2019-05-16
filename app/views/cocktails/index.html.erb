@@ -1,13 +1,21 @@
-<h1>The Cocktail Wagon</h1>
 <body>
   <table>
+    <h1>The Cocktail Wagon</h1>
+    <thead>
+      <tr>
+        <!-- <th>The Cocktail Wagon</th> -->
+        <!-- <th>Banner url</th> -->
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+
     <tbody>
-        <tr>
-          <% @cocktails.each do |cocktail| %>
-          <%= cocktail.name %>
-           <% end %>
-        </tr>
+      <% @cocktails.each do |cocktail| %>
+      <tr>
+        <td><%= cocktail.name %></td>
+      </tr>
+      <% end %>
     </tbody>
   </table>
-</body>
 
+  <br>
