@@ -8,3 +8,9 @@ Ingredient.create(name: "pixie dust")
 Ingredient.create(name: "elbow grease")
 Ingredient.create(name: "blood sweat and tears")
 
+Cocktail.create(name: "Fruity Ellyn")
+Cocktail.create(name: "Sassy Marina")
+Cocktail.create(name: "Raggaetony Valerie")
+Cocktail.create(name: "Samba Gus")
+Cocktail.create(name: "Daniel & Tonic")
+

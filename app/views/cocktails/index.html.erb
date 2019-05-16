@@ -1,0 +1,13 @@
+<h1>The Cocktail Wagon</h1>
+<body>
+  <table>
+    <tbody>
+        <tr>
+          <% @cocktails.each do |cocktail| %>
+          <%= cocktail.name %>
+           <% end %>
+        </tr>
+    </tbody>
+  </table>
+</body>
+
